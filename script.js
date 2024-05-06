@@ -9,3 +9,8 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
     container.classList.remove("active");
 });
+
+document.addEventListener("contextmenu", function(event){
+event.preventDefault();
+alert('Right Click is Disabled');    
+}, false);
