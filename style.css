@@ -232,7 +232,7 @@ transform: translateY(-15px); }
 95% {
 transform: translateY(-5px); } }
 button:hover {
-animation: bounce 1s ease; }
+animation: bounce 3s ease; }
 /* Import Google font - Poppins */
 * {
   margin: 0;
