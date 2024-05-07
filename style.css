@@ -222,7 +222,8 @@ border: none;
 border-radius: 10px;
 color: #fff;
 cursor: pointer; }
-@keyframes bounce {
+animation: slowBounce 1.5s ease;
+@keyframes  slowBounce {
 0%, 25%, 50%, 75%, 90%, 100% {
 transform: translateY(0); }
 15%,40% {
@@ -232,7 +233,7 @@ transform: translateY(-15px); }
 95% {
 transform: translateY(-5px); } }
 button:hover {
-animation: bounce 3s ease; }
+animation: slowBounce 1.5s ease; }
 /* Import Google font - Poppins */
 * {
   margin: 0;
